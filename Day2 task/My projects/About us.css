@@ -9,6 +9,28 @@ h1{
     text-shadow:"2px,2px,4px" color(rgb(178, 255, 90) rgb(147, 247, 147) rgb(227, 227, 238));
 text-shadow: 20px;
 }
- .our{
-
- }
+ 
+.About{
+text-align: left;
+}
+.our{
+    text-align: left;
+    padding-left: 30px;
+}
+#logo {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  
+  /* The element to apply the animation to */
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 20s;
+  }
+}
+#Stand {
+    float: right;
+    
+}
