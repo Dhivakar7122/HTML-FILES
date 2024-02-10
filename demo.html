@@ -1,44 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="demo.css">
-</head>
-<body>
-<!-- Nave Bar -->
 
-<nav class="navbar navbar-expand-lg navebar-dark" id="navebar" >
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="Project files/Img Source/icons/logo_02.svg" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link "  href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link "  href="#">Pages</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link "  href="#">Blogs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link "  href="#">Contact</a>
-          </li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Top Heder -->
+  <header class="fro menu-overlay menu-style-two sticky-menu">
+    <div class="gap ps-12px pe-12px  row pt-12px pb-12px">
+      <div class="info d-md-flex justify-content-between">
+        <div class="greets text-center"><Span class="opacity-50">Hello!!</Span><span class="fw-500">Welcome to
+            babun.</span></div>
+        <ul class=" cimg style-none d-none d-md-flex ">
+          <li class="micon d-md-flex align-items-center"><img src="Project files/Img Source/icons/icon_14.svg" alt=""
+              srcset=""><a href="mailto:babuninc@company.com" class="fw-500">babuninc@company.com</a></li>
+          <li class="picon d-md-flex align-items-center"><img src="Project files/Img Source/icons/icon_15.svg" alt=""
+              srcset=""><a href="tel:+757 699-4478" class="fw-500">+757 699-4478</a></li>
         </ul>
-          <button class="btn">Sign in</button>
-     
       </div>
     </div>
-  </nav>
+    <hr>
+    <!-- Top Header End -->
+    <!-- Navbar Strat -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid align-items-center m-0 p0">
+        <a class="navbar-brand " href="#"></a><img src="Project files/Img Source/icons/logo_02.svg" alt="" srcset="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse container d-flex justify-content-between " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                data-bs-auto-close="outside" aria-expanded="false">Home
+                <ul class="dropdown-menu">
+                  <li><a href="index.html" class="dropdown-item"><span>Finance</span></a></li>
+                  <li><a href="index-2.html" class="dropdown-item"><span>Business Consultancy</span></a></li>
+                  <li><a href="index-3.html" class="dropdown-item"><span>Banking</span></a></li>
+                  <li><a href="index-4.html" class="dropdown-item"><span>Payment Solution</span></a></li>
+                  <li><a href="index-5.html" class="dropdown-item"><span>Digital Agency</span></a></li>
+                  <li><a href="index-6.html" class="dropdown-item"><span>Marketing</span></a></li>
+                  <li><a href="index-7.html" class="dropdown-item"><span>Insurance</span></a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactus</a>
+            </li>
+            <!-- right right-widget -->
+        </div>
+        <div class="Lbt d-md-flex pe-2 justify-content-between align-items-center">
+          <li class="Logbt   d-md-flex ps-2 pe-2 ">
+            <img src="Project files/Img Source/icons/icon_16.svg" alt="" srcset="">
+            <a href="#"><span class="Lba">Login</span></a>
+          </li>
+          <div class="bttt">
+            <button class="Sigbt me-3 d-md-inline-block "> <span
+                class="spanbt d-md-flex text-center">Signup</span></button>
+            <i class="fa-solid fa-arrow-right ico d-flex align-items-center justify-content-center "></i>
+          </div>
+        </div>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <hr>
+  </header>
+  <div class="banner pt-200 pb-120px position-relative">
+    <div class="container position-relative">
+      <div class="row">
+        <div class="col-lg-10 m-auto">
+          <h1 class="head1 fw-bold text-center mt-10">Your Goals, Our Expertise - 
+            <span class="tline d-inline-block position-relative">Financial 
+              <img src="Project files/Img Source/icons/shape_04.svg" class="imgshape4" alt="" srcset=""></span>Success</h1>
+          <p class="ptext text-center bt-35 pb-35">Finance insights
+            enable smart moves towards wealth & security.</p>
+          <!-- <input type="email" class="mail" placeholder="Enter Your Email id">
+      <button class="ibut mb-10px">Connect</button> -->
+          <form action="#" class="inputb  position-relative  wow fadeInUp" data-wow-delay="0.2s">
+            <input type="email" class="mailb" placeholder="Your email address...">
+            <button class="btn-four">Connect</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-10 m-auto">
+          <div class="partner-logo pt-80 md-p-70">
+            <p class="ptwotext fw-500 text-center mb-40">
+              <span class="text-decoration-underline">Join 27000+</span>
+              companies who’ve reached
+            </p>
+            <div class="autoslide">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Project files/Img Source/icons/media_05.png" class="d-block w-10" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Project files/Img Source/icons/media_04.png" class="d-block w-10" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Project files/Img Source/icons/media_03.png" class="d-block w-10" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="Project files/Img Source/icons/shape_05.svg" alt="" class="shape01" srcset="">
+    <img src="Project files/Img Source/icons/shape_06.svg" alt="" class="shape02" srcset="">
+    <img src="Project files/Img Source/icons/screen_02.png" alt="" class="Pic1" srcset="">
+    <img src="Project files/Img Source/icons/screen_03.png" alt="" class="Pic2" srcset="">
+  </div>
+  <div class="secondiv">
+    <div class="shapestar1"><img src="Project files/Img Source/icons/shape_07.svg" alt="" srcset=""></div>
+    <div class="seconddivcon">
+      <div class="httext"><h2>The Numbers Reflect  Our Reputation.</h2></div>
+      <div class="patext"><p>Efficient problem-solving, insightful market analysis, and actionable plans made the consulting invaluable to our business's success.</p></div>
+    </div>
+   
+    <div class="secondrw">
+        <div class="icon1"><img src="Project files/Img Source/icons/icon_17.svg" alt="" srcset=""></div>
+        <div class="icon2"><img src="Project files/Img Source/icons/icon_18.svg" alt="" srcset=""></div>
+        <div class="icon3"><img src="Project files/Img Source/icons/icon_19.svg" alt="" srcset=""></div>
+        <div class="ml"><h2>120ml+</h2><p>We’ve experience more than 10+ years with success.</p></div>
+        <div class="doller"><h2>$1.3b+</h2><p>We achieve lot for our work from top certified agency.</p></div>
+        <div class="ksub"><h2>730k+</h2><p>We’ve more than happy 3000+ client all over the world.</p></div>
+      </div>
+      <div class="outline"></div>
+  </div>
 
+  <!-- Second Content -->
 
+  
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
