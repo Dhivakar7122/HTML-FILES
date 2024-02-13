@@ -7,8 +7,13 @@ background-color: #edf1ee;
 border-bottom: 1px;
 }
 .navbar{
+    position: fixed;
     word-spacing: 15px;
    background-color:  #edf1ee;
+}
+.mega-dropdown-sm :hover{
+    position: relative;
+
 }
 .navbar-brand{
 padding: 0;
@@ -220,11 +225,11 @@ padding-top: 20px;
 }
 .icon1{
     justify-content: center;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .icon2{
     justify-content: center;
-    padding-left: 30px;
+    padding-left: 45px;
 }
 .icon3{
     justify-content: center;
@@ -244,3 +249,546 @@ padding-top: 20px;
     size: 30px;
 
 }
+.doller h2{
+    justify-content: center;
+    font-size: 48px;
+    color: #ffdb1e;
+}
+.ksub h2{
+    justify-content: center;
+    font-size: 48px;
+    color: #ffdb1e;
+}
+.ml p{
+
+    width: 300px;
+    text-align: center;
+    margin-left: -65px;
+    font-size: 20px;
+    color: rgba(255,255,255,.7);
+}
+.doller p{
+    width: 300px;
+    text-align: center;
+    margin-left: -68px;
+    font-size: 20px;
+    color: rgba(255,255,255,.7);
+}
+.ksub p{
+    width: 300px;
+    text-align: center;
+    margin-left: -68px;
+    font-size: 20px;
+    color: rgba(255,255,255,.7);
+}
+.shapestar2{
+    padding-left: 500%;
+    width: 20px;
+}
+.twhead{
+    justify-content: center;
+    width: 100%;
+}
+.twhead h2{
+    font-size: 48px;
+   width: 100%;
+   text-align: center;
+}
+.star1 {
+    margin-top: 60px;
+    width: fit-content;
+    margin-left: 180px;
+
+}
+.star1 img{
+    width: 40px;
+}
+.boxcon{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 40px;
+    row-gap: 30px;
+    height: fit-content;
+}
+.exad img{
+    border: 1px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;    
+    border-radius: 100px;
+    background-color: #29594b;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.highlystar img{
+    border: 1px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;    
+    border-radius: 100px;
+    background-color: #29594b;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.manag img{
+    border: 1px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;    
+    border-radius: 100px;
+    background-color: #29594b;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.expert h4{
+    font-weight: 200px;
+}
+.expert p{
+    width: 300px;
+    text-align: center;
+    margin-left: -68px;
+    font-size: 20px;
+    color: rgba(0,0,0,.7);
+}
+.secure p{
+    width: 300px;
+    text-align: center;
+    margin-left: -68px;
+    font-size: 20px;
+    color: rgba(0,0,0,.7);
+}
+.ment p{
+    width: 300px;
+    text-align: center;
+    margin-left: -68px;
+    font-size: 20px;
+    color: rgba(0,0,0,.7);
+}
+.expert img{
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.secure img{
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.ment img{
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.fourblock{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    
+    padding: 10%;
+    row-gap: 30px;
+    position: relative;
+}
+.screen4{
+    position: relative;
+    z-index: 1;
+    background-image: url('Project files/Img Source/icons/img_13.jpg');
+    background-size: cover;
+    border-radius: 30px;
+    width: 500px;
+    height: 600px;
+}
+.s4 img{
+    height: 20%;
+    width: 20%;
+    right: -9%;
+    top: 12%;
+    width: 37.3%;
+    border-radius: 10px;
+    box-shadow: 10px 30px 50px rgba(0,0,0,.06);
+    position: absolute;
+    z-index: -1;
+}
+.s5 img{
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    z-index: -1;
+    left: -14%;
+    bottom: -9%;
+    width: 65.5%
+}
+.screen5{
+    position: relative;
+    border-radius: 30px;
+    width: 500px;
+    height: 600px;
+   left: -50%;
+
+}
+.uppertitle{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    color: #46846a;
+}
+.uppertitle h4{
+    font-size: 45px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 10px;
+    margin-right: 115px;
+    
+}
+.uppertitle p{
+    color: gray;
+    font-size: 20px;
+    margin-right: 55px;
+    padding-right: 10px;
+    
+}
+.abt a{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 50px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #29594b;
+}
+.main-count{
+    font-size: 40px;
+    color: #19352d;
+    margin-top: 180px;
+    position: relative;
+}
+.main-count p{
+    font-size: 23px;
+    color: gray;
+}
+.main-count2{
+    font-size: 40px;
+    color: #19352d;
+    margin-left: 230px;
+    margin-bottom: 140px;
+    position: relative;
+    top: -18%;
+}
+.main-count2 p{
+    font-size: 23px;
+    color: gray;
+}
+.outline1{
+    border-bottom: solid gray;
+    width:70%;
+    position: absolute;
+    margin-top: 35%;
+    opacity: 35%;
+    size: 25px;
+    top: 30%;
+}
+.lstimg{
+    margin-left: -60%;
+    margin-bottom: 30%;
+    position: absolute;
+    top: -10%;
+    left: 130%;
+    width: 15px;
+    height: 10px;
+    
+}
+.lstimg2{
+    position: absolute;
+    top: 110%;
+    left: -60%;
+}
+.fifth{
+    position: relative;
+    background-color: #edf1ee;
+    margin-top: 100px!important;
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+.title img{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,200);
+    border: 1px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: #29594b;
+    color: white;
+    margin-top: 60px;
+}
+.title h2{
+    justify-content: space-between;
+    position: relative;
+    left: 10%;
+    top: 80%;
+    font-size: 48px;
+    padding-right: 30%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+.title img{
+    position: absolute;
+    left: 90%;
+    top: 1.5%;
+}
+.title span{
+ position: absolute;
+ left: 80%;
+ top: 2%;
+ font-size: 20px;
+ margin-top: 60px;
+}
+.fifthblock{
+    position: relative;
+    bottom: 10%;
+    padding: 0%;
+    margin-top: 60px;
+}
+/* .container d-flex{
+    display: flex;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+} */
+.fcon{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    gap: 25px;
+}
+.fcon .bank {
+    position: relative;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    height: fit-content!important;
+    text-align: center;
+    padding-top: 20px;
+}
+.fcon .ear {
+    position: relative;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    height: fit-content!important;
+    text-align: center;
+    padding-top: 20px;
+}
+.fcon .exp {
+    position: relative;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    height: fit-content!important;
+    text-align: center;
+    padding-top: 20px;
+  
+
+}
+.fcon .sav {
+    position: relative;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    height: fit-content!important;
+    text-align: center;
+    padding-top: 20px;
+}
+.Ban img{
+    border: 1px solid yellow;
+    border-radius: 100px;
+    background-color: #ffdb1e;
+    padding: 10px;
+}
+.Earn img{
+    border: 1px solid yellow;
+    border-radius: 100px;
+    background-color: #ffdb1e;
+    padding: 10px;
+}
+.Expen img{
+    border: 1px solid yellow;
+    border-radius: 100px;
+    background-color: #ffdb1e;
+    padding: 10px;
+}
+.saving img{
+    border: 1px solid yellow;
+    border-radius: 100px;
+    background-color: #ffdb1e;
+    padding: 10px;
+}
+.fifthblock h4{
+    margin-top: 30px;
+}
+.fifthblock p{
+    margin-top: 30px;
+    font-size: 18px;
+    text-align:center;
+    color: gray;
+
+}
+.sixtt{
+    position: relative;
+}
+.sixtt h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.sixtt img{
+    position: absolute;
+    top: 2%;
+    left: 20%;
+}
+.review{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.revw{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.review col{
+    border: 1px solid black;
+
+}
+.accordion-item{
+    border-radius: 40px;
+
+}
+.accordion-button{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.55em;
+    color: #aea78f;
+    padding: 28px 50px;
+    background: rgba(0,0,0,0);
+    border-radius: 40px 40px 0 0;
+    box-shadow: none;
+}
+.faq-section-two{
+    align-items: center!important;
+    justify-content: center!important;
+
+}
+.limg{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.innews{
+    position: relative;
+    padding-bottom: 2%;
+}
+.tile{
+   position: relative;
+   bottom: 3%;
+}
+.tile img{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,200);
+    border: 1px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: #29594b;
+    color: white;
+    margin-top: 18px;
+}
+.tile h2{
+    justify-content: space-between;
+    position: relative;
+    left: 10%;
+    top: 80%;
+    font-size: 48px;
+    padding-right: 30%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+.tile img{
+    position: absolute;
+    left: 90%;
+    top: 1%;
+}
+.tile span{
+ position: absolute;
+ left: 80%;
+ top: 2%;
+ font-size: 20px;
+ margin-top: 20px;
+}
+.blogr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.blogr img{
+    height: 80%;
+    width: 80%;
+}
+.blog2 img{
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+.blog2 h2 {
+    margin-top: 10px;
+}
+.fancy-banner-three{
+    background-image:url('Project files/Img Source/icons/img_17.jpg') ;
+    background-size: cover;
+    padding: 50px;
+    z-index: -1;
+    margin-top: 40px;
+}
+.quote-btn{
+    border: 1px solid #ffe86b;
+    background-color: #ffe86b;
+    width: 200px;
+    height: 200px;
+    padding: 16px;
+    border-radius: 30px;
+}
+.footer2{
+    background-image: url('Project files/Img Source/icons/img_18.jpg');
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 110px 15px 135px;
+}
+.footer2{
+    margin-top: 30px;
+}
+.bg-wrapper{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+/* .fancy-banner-three{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #174034;
+    mix-blend-mode: darken;
+    
+} */
